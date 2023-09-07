@@ -1,0 +1,11 @@
+<div class="app-category-detail">
+	<h3>Name: {{ typing?.Title }}</h3>
+	<p>Description: {{ typing?.Content }}</p>
+	<p>Date Created: {{ typing?.CreatedAt | date: "medium" }}</p>
+	<p>Voter's Count: {{ typing?.UpdatedAt }}</p>
+	<p>Created By: {{ typing?.CreatedBy }}</p>
+	<p>Updated By: {{ typing?.UpdatedBy }}</p>
+	<!-- <p>
+    Categories: <strong>{{ typing.Categories.Name }}</strong>
+  </p> -->
+</div>

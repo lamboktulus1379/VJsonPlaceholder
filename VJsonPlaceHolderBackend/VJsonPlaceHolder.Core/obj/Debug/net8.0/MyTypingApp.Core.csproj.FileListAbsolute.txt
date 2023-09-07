@@ -1,0 +1,12 @@
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/bin/Debug/net8.0/VJsonPlaceHolder.Core.deps.json
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/bin/Debug/net8.0/VJsonPlaceHolder.Core.dll
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/bin/Debug/net8.0/VJsonPlaceHolder.Core.pdb
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/VJsonPlaceHolder.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/VJsonPlaceHolder.Core.AssemblyInfoInputs.cache
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/VJsonPlaceHolder.Core.AssemblyInfo.cs
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/VJsonPlaceHolder.Core.csproj.CoreCompileInputs.cache
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/VJsonPlaceHolder.Core.sourcelink.json
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/VJsonPlaceHolder.Core.dll
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/refint/VJsonPlaceHolder.Core.dll
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/VJsonPlaceHolder.Core.pdb
+/Users/lamboktulussimamora/Projects/Comment/src/Services/Comment/Comment.Core/obj/Debug/net8.0/ref/VJsonPlaceHolder.Core.dll

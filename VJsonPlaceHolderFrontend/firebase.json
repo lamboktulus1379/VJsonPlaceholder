@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/MyTypingAppFrontendAdmin",
+    "site": "graadmin372",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

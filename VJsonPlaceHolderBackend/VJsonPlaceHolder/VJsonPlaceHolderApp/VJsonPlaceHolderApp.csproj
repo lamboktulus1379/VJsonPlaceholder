@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8</TargetFramework>
+    <UserSecretsId>dd3c8199-9d7c-42fd-9972-efb7df3f0d3e</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+    <PackageId>Comment.API</PackageId>
+    <Authors>Comment.API</Authors>
+    <Company>Comment.API</Company>
+    <Product>Comment.API</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.0.2" />
+    <PackageReference Include="Elastic.Apm.NetCoreAll" Version="1.20.0" />
+    <PackageReference Include="Elastic.Apm.SerilogEnricher" Version="8.4.0-alpha3" />
+    <PackageReference Include="Google.Protobuf" Version="3.22.1" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.52.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0-preview.2.23153.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.0-preview.2.23153.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.2.23128.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0-preview.2.23128.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0-preview.2.23128.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.2.23128.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-preview.2.23128.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.1.1-dev-00295" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0-dev-00792" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.1-dev-00910" />
+    <PackageReference Include="Serilog.Sinks.ElasticSearch" Version="9.0.0" />
+
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\VJsonPlaceHolder.Core\VJsonPlaceHolder.Core.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+    <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
+    <ProjectReference Include="..\Hosts\Hosts.csproj" />
+  </ItemGroup>
+
+</Project>

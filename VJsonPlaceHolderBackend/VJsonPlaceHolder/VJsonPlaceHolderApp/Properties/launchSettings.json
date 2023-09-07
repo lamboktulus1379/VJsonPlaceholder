@@ -1,0 +1,61 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50588",
+      "sslPort": 44347
+    },
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development",
+      "GOOGLE_APPLICATION_CREDENTIALS": "Config/sonic-charmer-337916-e5c110ddf78f.json",
+      "KAFKA_SERVER": "my-release-kafka.default.svc.cluster.local",
+      "GRA_HOST": "https://gra.tulus.fun/v1"
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": false,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "KAFKA_SERVER": "my-release-kafka.default.svc.cluster.local",
+        "GRA_HOST": "https://gra.tulus.fun/v1"
+      }
+    },
+    "VJsonPlaceHolder": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "projectId": "sonic-charmer-337916",
+        "subscriptionId": "Comment-sub",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GOOGLE_APPLICATION_CREDENTIALS": "Config/sonic-charmer-337916-e5c110ddf78f.json",
+        "KAFKA_SERVER": "my-release-kafka.default.svc.cluster.local",
+        "GRA_HOST": "https://gra.tulus.fun/v1",
+        "KAFKA_CONSUMER_GROUP": "mygra-group",
+        "KAFKA_TOPIC": "mygra2",
+        "KAFKA_BROKER": "localhost:9092",
+        "timeSpan": "10",
+        "SCORE_HOST": "http://localhost:5003",
+        "USER_HOST": "http://localhost:5005"
+      },
+      "applicationUrl": "https://localhost:5000;http://localhost:5001"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": false,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/weatherforecast",
+      "publishAllPorts": true,
+      "useSSL": true,
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "Config/sonic-charmer-337916-e5c110ddf78f.json",
+        "KAFKA_SERVER": "my-release-kafka.default.svc.cluster.local",
+        "GRA_HOST": "https://gra.tulus.fun/v1"
+      }
+    }
+  }
+}

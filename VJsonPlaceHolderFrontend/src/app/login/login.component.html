@@ -1,0 +1,24 @@
+<section fxLayout="row wrap" fxLayoutAlign="center center">
+  <mat-card fxFlex="500px" fxFlex.xs="100%">
+    <mat-card-title>Login</mat-card-title>
+    <form [formGroup]="loginForm" autocomplete="off" novalidate (ngSubmit)="loginUser(loginForm.value)"
+      fxLayoutAlign="center center" fxLayout="colum wrap">
+      <mat-card-content>
+        <mat-form-field>
+          <input matInput type="text" placeholder="Email" formControlName="Email" id="name" />
+          <mat-error *ngIf="hasError('Email', 'required')">Email is required</mat-error>
+          <mat-error *ngIf="hasError('Email', 'maxlength')">You have more than 60 characters</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput type="password" placeholder="Password" formControlName="Password" id="name" />
+          <mat-error *ngIf="hasError('Password', 'required')">Password is required</mat-error>
+        </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions align="start">
+        <button mat-raised-button color="primary" [disabled]="!loginForm.valid">
+          Login
+        </button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</section>
